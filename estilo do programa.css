@@ -1,0 +1,56 @@
+*{padding: 0;margin: 0;box-sizing: border-box;font-size: 100%;}
+body{
+	background:#d5e317;
+	overflow-y:hidden;
+}
+main{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin: 50px auto;
+	width: 50%;
+	height: 525px;
+	background: #415141;
+	border-radius: 15px;
+}
+h2{
+	font-size: 1.5rem;
+	margin:20px;
+	font-family: Arial;
+	color:white;
+
+}
+input{
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+	padding: 5px;
+	border-radius: 5px;
+}
+form input[type=text]:focus,select#select:focus{
+	outline: 0;
+}
+button{
+	color: white;
+	font-size: 1.2rem;
+	padding: 5px;
+	border-radius: 5px;
+}
+select{
+	font-size: 1.2rem;
+	font-family: Arial;
+	display: none;
+}
+#caixa{
+	width: 155px;
+}
+#amostra{
+	color: white;
+	font-size: 1.2rem;
+	font-family: Arial;
+}
+ .icon{
+  width: 10%;
+  cursor:pointer;
+ }
