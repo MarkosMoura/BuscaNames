@@ -1,0 +1,1 @@
+console.log("Hello Friend BuscaNomes simples com HTML CSS JS");
